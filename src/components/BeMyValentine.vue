@@ -1,12 +1,8 @@
 <template>
   <div class="flex flex-col w-full h-screen">
-    <div class="image-container flex flex-col h-2/5">
-      <img
-        src="../assets/img/undraw_love_is_in_the_air_-4-mmc 1.svg"
-        class="h-full"
-        alt=""
-      />
-    </div>
+    <div
+      class="flex flex-col h-2/5 bg-my-valentine bg-no-repeat bg-center bg-contain"
+    ></div>
     <div class="form-container h-3/5">
       <h1 class="question-header">Will you be my valentine?</h1>
 
@@ -14,6 +10,7 @@
         <button class="button no" @click="clickedNo">No</button>
         <button class="button yes" @click="clickedYes">Yes</button>
       </div>
+      <img src="../assets/img/wave.svg" class="bottom-0 absolute" alt="" />
     </div>
   </div>
 </template>

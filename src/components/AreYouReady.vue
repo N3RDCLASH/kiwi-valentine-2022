@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col w-full h-screen">
-    <div class="image-container flex flex-col h-2/5">
-      <img src="../assets/img/kiwi-hearts.svg" class="h-full" alt="" />
-    </div>
+    <div
+      class="image-container flex flex-col h-2/5 bg-kiwi-hearts bg-contain bg-center"
+    ></div>
     <div class="form-container h-3/5">
       <h1 class="question-header">Are You Ready?</h1>
 
