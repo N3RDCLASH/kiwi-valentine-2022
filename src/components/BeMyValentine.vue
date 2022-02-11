@@ -16,12 +16,16 @@
 </template>
 
 <script>
+import { confetti } from "dom-confetti";
+
 export default {
   setup(props, context) {
-    const clickedYes = () => {
-      context.emit("readyYes", true);
+    const clickedYes = (e) => {
+      confetti(e.target);
+      setTimeout(() => context.emit("readyYes", true), 2000);
     };
-    const clickedNo = () => {
+    const clickedNo = (e) => {
+      console.log(e);
       context.emit("readyNo", true);
     };
     return { clickedYes, clickedNo };

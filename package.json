@@ -7,7 +7,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "click-outside-vue3": "^4.0.1",
+    "dom-confetti": "^0.2.2",
+    "remove": "^0.1.5",
+    "vue": "^3.2.25",
+    "vue-confetti": "^2.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
