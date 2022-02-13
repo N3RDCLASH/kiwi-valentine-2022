@@ -26,12 +26,12 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import svg from "../assets/img/bi_calendar-check-fill.svg";
 export default {
   setup() {
-    const now: Date = new Date();
-    const valentinesDay: Date = new Date("14 Feb 2022");
+    const now = new Date();
+    const valentinesDay = new Date("14 Feb 2022");
 
     window.localStorage.setItem("valentineConfirmed", "true");
     return {
