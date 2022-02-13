@@ -27,7 +27,6 @@
 </template>
 
 <script>
-import svg from "../assets/img/bi_calendar-check-fill.svg";
 export default {
   setup() {
     const now = new Date();
