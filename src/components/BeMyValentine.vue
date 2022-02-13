@@ -15,16 +15,18 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { confetti } from "dom-confetti";
-
+import audio from "../assets/audio/tada.mp3";
 export default {
   setup(props, context) {
-    const clickedYes = (e) => {
+    const clickedYes = (e: any) => {
       confetti(e.target);
-      setTimeout(() => context.emit("readyYes", true), 2000);
+      const tada = new Audio(audio);
+      tada.play();
+      setTimeout(() => context.emit("readyYes", true), 4000);
     };
-    const clickedNo = (e) => {
+    const clickedNo = (e: Event) => {
       console.log(e);
       context.emit("readyNo", true);
     };
