@@ -3,22 +3,16 @@
     <div class="h-1/2 bg-valentine-confimed bg-no-repeat bg-center"></div>
     <div class="h-2/6">
       <h1 class="">Valentine Confirmed!</h1>
-      <vue-countdown :time="time" v-slot="{ days, hours, minutes, seconds }">
-        <h2 class="">
-          {{ days }} day{{ days == 1 ? "s" : "" }}, {{ hours }} hours,
-          {{ minutes }} minutes, {{ seconds }} seconds.
-        </h2>
-      </vue-countdown>
-
-      <a
-        href="https://add.eventable.com/events/620867590832380019e5b550/6208675b7312ad00e0fe159f"
-        class="calendar"
-        target="_blank"
-        data-key="620867590832380019e5b550"
-        data-event="6208675b7312ad00e0fe159f"
-        data-style="on"
-        >Add to Calendar</a
-      >
+      <div class="flex justify-center mt-4">
+        <iframe
+          src="https://open.spotify.com/embed/playlist/1IfQLMOT8MhZSPkwmvt1ij"
+          width="300"
+          height="80"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </div>
     </div>
     <div class="h-1/6 p-0">
       <img src="../assets/img/wave.svg" class="bottom-0 absolute" alt="" />
