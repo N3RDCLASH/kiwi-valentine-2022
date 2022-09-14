@@ -1,5 +1,6 @@
+import HeaderComponent from "../../components/header/HeaderComponent.vue";
 import HeroModule from "./HeroModule.vue";
 import VideoModule from "./VideoModule.vue";
 import MomentsModule from "./MomentsModule.vue";
 
-export { HeroModule, VideoModule, MomentsModule };
+export { HeaderComponent, HeroModule, VideoModule, MomentsModule };
