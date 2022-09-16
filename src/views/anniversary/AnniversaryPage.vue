@@ -4,6 +4,7 @@
     <hero-module></hero-module>
     <video-module></video-module>
     <moments-module></moments-module>
+    <events-module></events-module>
   </div>
 </template>
 
@@ -14,9 +15,16 @@ import {
   HeroModule,
   VideoModule,
   MomentsModule,
+  EventsModule,
 } from "../../modules/anniversary/index";
 export default defineComponent({
-  components: { HeaderComponent, HeroModule, VideoModule, MomentsModule },
+  components: {
+    HeaderComponent,
+    HeroModule,
+    VideoModule,
+    MomentsModule,
+    EventsModule,
+  },
   setup() {
     return {};
   },
