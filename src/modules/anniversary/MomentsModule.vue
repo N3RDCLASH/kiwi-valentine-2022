@@ -6,7 +6,7 @@
     <carousel
       :items-to-show="3"
       :autoplay="2000"
-      class="bg-[url(/assets/rose-bg.png)]"
+      class="bg-[url(/assets/rose-bg.png)] bg-repeat bg-contain py-10 max-w-full overflow-x-clip"
     >
       <slide v-for="(slide, index) in moments" :key="index">
         <div

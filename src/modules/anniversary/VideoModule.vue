@@ -21,7 +21,7 @@
             videoPlayer = el;
           }
         "
-        class="-mt-[6rem] z-0"
+        class="-mt-[3rem] md:-mt-[6rem] z-0"
         src="../../assets/video/voltzberg.mp4"
         :autoplay="true"
         muted
